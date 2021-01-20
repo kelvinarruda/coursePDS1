@@ -49,7 +49,7 @@ public class Order implements Serializable {
 		this.client = client;
 	}
 	
-	public Set<OrderItem> getItem(){
+	public Set<OrderItem> getItems(){
 		return items;
 	}
 
